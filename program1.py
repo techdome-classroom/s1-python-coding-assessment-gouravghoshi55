@@ -18,12 +18,10 @@ def dfs(r, c):
         
         total_isles = 0
         
-        for i in range(rows):
+for i in range(rows):
             for j in range(cols):
                 if grid[i][j] == 'L':
                     total_isles += 1
                     dfs(i, j)
         
-        return total_isles
-                    
-        return 0
+return total_isles
