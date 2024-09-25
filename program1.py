@@ -16,7 +16,7 @@ def dfs(r, c):
             dfs(r, c + 1)
             dfs(r, c - 1)
         
-        total_isles = 0
+total_isles = 0
         
 for i in range(rows):
             for j in range(cols):
