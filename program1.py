@@ -7,7 +7,7 @@ class Solution:
         
     rows, cols = len(grid), len(grid[0])
         
-        def dfs(r, c):
+def dfs(r, c):
             if r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] == 'W':
                 return
             grid[r][c] = 'W'
